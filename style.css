@@ -1,0 +1,139 @@
+body{
+    background-color:  #6d6eb2;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+}
+.bg{ 
+height: 550px;
+width: 95%;
+/* display: flex; */
+justify-content: center;
+margin: auto;
+margin-top: 30px;
+/* align-items: center; */
+background-color: #7e7fd2 ;
+box-shadow: 0 0 15px #000154, 0 0 5px #35367a;
+}
+.navbar{
+    width: 95%;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+.fa-shop{
+    font-size: 30px;
+}
+h1{
+    font-size: 30px;
+    color: #000154 ;
+    font-style: italic;
+    font-family: cursive;
+}
+.navitem1{
+display: flex;
+line-height: 0.0em;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+    color: #35367a;
+    font-size: 16px;
+    font-weight: bold;
+ 
+
+}
+a:hover{
+    color: white;
+}
+.h2{
+
+color: #07085b;
+text-transform: capitalize;
+line-height: 0.0em;
+/* padding: 20px; */
+font-size: 50px;
+text-transform:uppercase;
+/* margin-top: 50px; */
+font-family:sans-serif;
+margin: 20px;
+margin-top: 70px;
+}
+.h3{
+    /* padding: 20px; */
+    color: #07085b;
+    font-size: 60px;
+text-transform: uppercase;
+font-family:sans-serif;
+/* margin-top: 0px; */
+margin: 20px;
+
+}
+.text{
+    margin: 30px;
+    font-size: 30px;
+    color: #07085b;
+    text-decoration: underline;
+    text-underline-position:under ;
+    text-decoration-thickness: 3px;
+    line-height: 0.0em;
+}
+.text2{
+    margin: 30px;
+    font-size: 15px;
+    color: #07085b;
+}
+button{
+height: 30px;
+width: 120px;
+border: 1px solid #07085b;
+border-radius: 15px;
+background-color: #07085b;
+color: white;
+}
+.button{
+    margin: 50px;
+}
+button:hover{
+    background-color: #35367a;
+}
+.head1{
+    position: absolute;
+    right: 130px;
+top: 80px;
+}
+@media only screen and (max-width :1024px){
+    a{
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+}
+@media only screen and (max-width :768px){
+    .h2,
+    .h3{
+        font-size: 30px;
+    }
+    .text2{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width :320px){
+    .h2,
+    .h3{
+        font-size: 25px;
+    }
+    .text2{
+        flex-wrap: wrap;
+    }
+}
+
